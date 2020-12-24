@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'homePage.dart';
+import 'package:ecommerce_app/screens/homePage.dart';
 
 class WelcomeScreen extends StatefulWidget {
   @override

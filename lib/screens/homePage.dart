@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'makeItem.dart';
+import 'package:ecommerce_app/widgets/makeItem.dart';
 
 class HomePage extends StatefulWidget {
   @override

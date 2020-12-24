@@ -1,4 +1,4 @@
-import 'CategoryPage.dart';
+import 'package:ecommerce_app/screens/categoryPage.dart';
 import 'package:flutter/material.dart';
 
 Widget makeCategoryItem({image, name, context, tag}) {
