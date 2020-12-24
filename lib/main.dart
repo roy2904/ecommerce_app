@@ -5,7 +5,7 @@ import 'homePage.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: WelcomeScreen(),
+      home: HomePage(),
       debugShowCheckedModeBanner: false,
     ),
   );
