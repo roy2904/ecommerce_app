@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ecommerce_app/widgets/makeProduct.dart';
 
 class CategoryPage extends StatefulWidget {
   final String name, image, tag;
@@ -174,6 +175,12 @@ class _CategoryPageState extends State<CategoryPage> {
                       )
                     ],
                   ),
+                  SizedBox(height: 20),
+                  makeProduct(image: 'assets/images/clothes1.jpg',name: 'Jackets', price: '150\$'),
+                  makeProduct(image: 'assets/images/denim.jpg',name: 'Levi Denim set of 3', price: '400\$'),
+                  makeProduct(image: 'assets/images/converse.jpg',name: 'Converse Classic White', price: '120\$'),
+                  makeProduct(image: 'assets/images/shirts.jpg',name: 'Shirts Pack of 3', price: '350\$'),
+                  makeProduct(image: 'assets/images/tshirt.jpg',name: 'Stay wild tee', price: '30\$'),
                 ],
               ),
             )

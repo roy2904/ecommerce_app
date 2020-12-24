@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'welcomeScreen.dart';
-import 'homePage.dart';
+import 'screens/welcomeScreen.dart';
+
 
 void main() {
   runApp(
     MaterialApp(
-      home: HomePage(),
+      home: WelcomeScreen(),
       debugShowCheckedModeBanner: false,
     ),
   );
