@@ -149,14 +149,14 @@ class _HomePageState extends State<HomePage> {
                       children: <Widget>[
                         makeCategoryItem(
                             image: 'assets/images/clothes.jpg',
-                            name: 'Clothes'),
+                            name: 'Clothes',context: context,tag:'clothes'),
                         makeCategoryItem(
-                            image: 'assets/images/tech.jpg', name: 'Gadgets'),
+                            image: 'assets/images/tech.jpg', name: 'Gadgets',context: context,tag:'tech'),
                         makeCategoryItem(
                             image: 'assets/images/earbuds.jpg',
-                            name: 'Earphones'),
+                            name: 'Earphones',context: context,tag:'earphones'),
                         makeCategoryItem(
-                            image: 'assets/images/camera.jpg', name: 'Cameras'),
+                            image: 'assets/images/camera.jpg', name: 'Cameras',context: context,tag:'camera'),
                       ],
                     ),
                   ),
